@@ -23,7 +23,7 @@ const RecoverPassword = ({ navigation }) => {
             <View style={[styles.inputContainer, { backgroundColor: '#FAFAFA' }]}>
                 <TextInput
                     style={styles.input}
-                    placeholder="Ingresa tu email"
+                    placeholder="tucorreo@email.com"
                     placeholderTextColor="#989898"
                     keyboardType="email-address"
                     autoCapitalize="none"

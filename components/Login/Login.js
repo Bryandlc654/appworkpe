@@ -16,11 +16,11 @@ const LoginComponent = () => {
       <Text style={styles.headerText}>Bienvenido</Text>
       <Text style={styles.subHeaderText}>Inicia sesión</Text>
 
-      <Text style={styles.label}>Usuario</Text>
+      <Text style={styles.label}>Correo</Text>
       <View style={[styles.inputContainer, { backgroundColor: '#FAFAFA' }]}>
         <TextInput
           style={styles.input}
-          placeholder="Ingresa tu usuario"
+          placeholder="tucorreo@email.com"
           placeholderTextColor="#989898"
           value={username}
           onChangeText={(text) => setUsername(text)}
@@ -31,7 +31,7 @@ const LoginComponent = () => {
       <View style={[styles.inputContainer, { backgroundColor: '#FAFAFA' }]}>
         <TextInput
           style={styles.input}
-          placeholder="Ingresa tu contraseña"
+          placeholder="********"
           placeholderTextColor="#989898"
           secureTextEntry={!showPassword}
           value={password}

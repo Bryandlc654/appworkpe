@@ -90,6 +90,9 @@ const HomeScreen = () => {
                         <TouchableOpacity onPress={() => console.log("Ofrecer servicios")} style={styles.optionButton}>
                             <Text>Ofrecer servicios</Text>
                         </TouchableOpacity>
+                        <TouchableOpacity onPress={() => console.log("Reportar usuario")} style={styles.optionButton}>
+                            <Text>Reportar usuario</Text>
+                        </TouchableOpacity>
                     </View>
                 )}
             </View>
@@ -194,7 +197,7 @@ const styles = StyleSheet.create({
     },
     dropdown: {
         position: 'absolute',
-        top:50, // Puedes ajustar la posición según necesites
+        top: 50, // Puedes ajustar la posición según necesites
         right: 0,
         backgroundColor: '#fff',
         borderRadius: 8,
